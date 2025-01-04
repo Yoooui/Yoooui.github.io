@@ -51,9 +51,9 @@
   }
   @font-face {
     /* 为载入的字体取名字(随意) */
-    font-family: 'apple';	
+    font-family: 'wenkai';	
     /* 字体文件地址(相对或者绝对路径都可以) */
-    src: url(/font/SF-Pro.ttf);
+    src: url(/font/霞鹜文楷.woff2);
     /* 定义加粗样式(加粗多少) */
     font-weight: normal;
     /* 定义字体样式(斜体/非斜体) */
@@ -275,3 +275,29 @@
     background: rgba(25, 25, 25, 0.9) !important;
     color: #ffffff;
   }
+
+
+
+  svg.menu_icon {
+    width: 1.35em; height: 1.35em;
+    /* width和height定义图标的默认宽度和高度*/
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+ }
+
+
+ svg.social_icon {
+  width: 1.20em;
+  height: 1.20em;
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden;
+}
+
+
+
+.loading-img {
+  background: url(/img/avatar.jpg) no-repeat center center;
+  background-size: cover;
+}
